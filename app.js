@@ -1204,7 +1204,7 @@ checkoutForm.addEventListener('submit', (e) => {
   const notes = fd.get('notes') || '';
 
   let textParts = [];
-  textParts.push('🧾 *Nuevo Pedido - Club Sandwich & Juice ✅*');
+  textParts.push('🧾 *Nuevo Pedido - El Llanero ✅*');
   textParts.push(`👤 Cliente: ${clientName}`);
   textParts.push(`📞 Teléfono: ${clientPhone}`);
   textParts.push(`🚚 Tipo: ${method}`);
@@ -1359,3 +1359,4 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch(() => alert("No se pudo copiar"));
   });
 });
+
